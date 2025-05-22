@@ -1,0 +1,41 @@
+.form-box {
+    border: 2px solid #ccc; 
+    border-color: pink;
+    width:100%;  
+    border-radius: 10px;
+    padding: 20px; 
+    background-color: black; 
+}
+
+.form-box label,
+.form-box input,
+.form-box select,
+.form-box button {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .form-row label {
+    width: 100px;
+    font-weight: bold;
+    margin-right: 10px;
+    color: white;
+  }
+  
+  .form-row input,
+  .form-row select {
+    flex: 1;
+    padding: 8px;
+    background: #1e1e1e;
+    border: 1px solid #555;
+    border-radius: 5px;
+    color: white;
+  }
+  
